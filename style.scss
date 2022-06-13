@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Storytella;
+     src: url("assets/storytella/Storytella.otf");
+   }
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    color: #2F281E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 1312px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 32px 0;
+}
+
+.header__wrapper {
+    align-items: center;
+    justify-content: center;
+    line-height: 2.4rem;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.navigation__item {
+    list-style: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #2F281E;
+}
+
+main {
+    display: flex;
+}
+.first-column {
+    width: 40%;
+    background-color: #F9F9F9;
+}
+
+.second-column {
+    width: 60%;
+}
+
+.photo__image {
+    width: 240px;
+    height: 240px;
+    margin: 36px 136px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    font-family: 'Storytella';
+    margin: 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #359539;
+    text-align: center;
+    }
+
+h3 {
+    font-size: 2.8rem;
+    line-height: 4.8rem;
+    text-align: center;
+    font-family: 'Storytella';
+    margin: 0;
+}
+
+.profile {
+    padding: 96px 0;
+}
+
+section {
+    margin: 0;
+}
+
+p {
+    text-align: center;
+}
+
+.footer__wrapper {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.rs-school {
+    width: 88px;
+}
