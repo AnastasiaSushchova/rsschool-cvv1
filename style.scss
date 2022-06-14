@@ -45,11 +45,17 @@ header {
 }
 
 .navigation__item {
-    list-style: none;
     padding: 0 20px;
     cursor: pointer;
 }
 
+li {
+    list-style: none;
+}
+
+a:hover {
+    color: #cece00;
+}
 a {
     text-decoration: none;
     color: #2F281E;
@@ -81,6 +87,20 @@ h1 {
     text-align: center;
     font-family: 'Storytella';
     margin: 0;
+    padding-top: 20px;
+}
+
+h1::after{
+    content: '';
+    position: absolute;
+    right: 526px;
+    top: 207px;
+    display: block;
+    background-color: #359539;
+    width: 120px;
+    height: 120px;
+    opacity: .3;
+    border-radius: 50%;
 }
 
 h2 {
@@ -89,6 +109,7 @@ h2 {
     line-height: 48px;
     color: #359539;
     text-align: center;
+    margin: 56px 0 24px;
     }
 
 h3 {
@@ -99,6 +120,11 @@ h3 {
     margin: 0;
 }
 
+.contact__list, .skills__list, .experience__list {
+    line-height: 3.2rem;
+    padding-left: 0px;
+    text-align: center;
+}
 .profile {
     padding: 96px 0;
 }
@@ -110,6 +136,9 @@ section {
 p {
     text-align: center;
 }
+.section_about {
+    padding: 0 66px;
+}
 
 .footer__wrapper {
     align-items: center;
@@ -119,4 +148,8 @@ p {
 
 .rs-school {
     width: 88px;
+}
+
+%transition {
+    transition: all .3s ease-out;
 }
